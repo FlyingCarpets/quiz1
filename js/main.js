@@ -1,4 +1,3 @@
-// var taskData = [{image: 'https://cdn-img-0.wanelo.com/p/8b6/be0/d30/0ae5ae53af9710779f57c19/x200-q90.jpg', answer: 'faultier'},{image:'http://www.scifiideas.com/wp-content/uploads/2011/10/Echidna-200x200.jpg', answer: 'schnabeligel'}];
 var task;
 
 var buildTask = (function() {
@@ -55,4 +54,4 @@ var checkAnswer = (function() {
 }());
 
 
-buildTask.getTaskData('https://raw.githubusercontent.com/FlyingCarpets/quiz/gh-pages/data/questions.json');
+buildTask.getTaskData('https://raw.githubusercontent.com/FlyingCarpets/quiz1/gh-pages/data/questions.json');
